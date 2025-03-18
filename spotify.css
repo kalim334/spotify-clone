@@ -1,0 +1,264 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu
+{
+    background-color:black;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    padding:0 5% ;
+}
+#spoti{
+    color:white;
+    font-size: 30px;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+.menu ul li{
+    padding: 10px 30px;
+}
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+.menu ul li a:hover
+{
+    color: lightgreen;
+}
+.mobilebg
+{
+    height: 600px;
+    background: url(https://www.scdn.co/i/free/bubbles-dktp.svg) center -138px / 100% 1068px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166));
+    /* background-position: center -138px; */
+    /* padding: 10px 15px 0px 0px;
+    width: 100%; */
+
+
+}
+.mobileb-g
+{
+    height: 600px;
+    background-image: url(spotify.jpeg) no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    color: white;
+}
+.play
+{
+    margin-right: 50px;
+    margin-bottom: 20px;
+    font-size: 40px;  
+}
+
+.free-btn{
+    border: 1px solid white;
+    padding: 15px 30px;
+    border-radius: 20px;
+    transition: .2s ease-in-out 0s;
+}
+.free-btn:hover{
+    transform: scale(1.10);
+}
+
+.free-btn a{
+    text-decoration: none;
+    color:  black;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.home-text{
+    margin-left: 50px;
+}
+.mobile-img{
+
+    height: 500px;
+    width: 250px;
+}
+.mobile-bg{
+    border-radius: 25px;
+    margin-top:130px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 580px;
+    width: 270px;
+    background-color: white;
+}
+.mobile-notch{
+    color: rgb(56, 31, 31);
+    margin-bottom:30px;
+    margin-right:20px ;
+    font-size: 40px;
+    font-weight: bold;
+    width: 20px;
+    border-radius:50%;
+}
+ .why 
+{
+    font-size: 50px;
+    text-align: center;
+    margin: 50px;
+    padding-right: 60px;
+}
+.icon
+{
+    background-color: white;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10% 10px 10%;
+}
+.free-no
+{
+    height:600px ;
+    width: 100%;
+    color: white;
+    background-image: linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166)) ;
+    font-size:50px ;
+}
+.h2
+{
+    padding-top: 90px;
+    text-align: center;
+}
+.h3
+{
+    text-align: center;
+}
+.got-qu
+{
+    text-align: center;
+    font-size: 30px;
+    margin: 30px;
+}
+.detali
+{
+    color: black;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    
+}
+.faq{
+    list-style: none;
+}
+summary:hover
+{
+    font-size: 31px;
+    text-decoration: underline;
+}
+span
+{
+    color:lightgreen;
+}
+.ready-a
+{
+    background: url(https://www.scdn.co/i/free/lets-play.svg) left -10px bottom -160px / 100% 1114px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) 16%, rgb(240, 55, 166)) rgb(108, 14, 224);
+    /* background-position: left -9px bottom -160px; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    width: 100%;
+    text-align: center;
+    padding: 150px ;
+}
+.read
+{
+    font-size: 80px;
+    font-weight: 600;
+}
+.free-go
+{
+    color: black;
+    background-color: beige;
+    border: 1px solid white;
+    margin: 50px;
+    padding: 15px 30px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.free-go:hover
+{
+    color: #000000;
+    font-size:22px ;
+    text-decoration: underline;
+}
+#spot
+{
+    color: beige;
+}
+.com-out
+{
+    
+    background-color: black;
+    color: lightgrey;
+    height: 460px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 6% 4%;
+}
+
+.com-out ul li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.com-out ul li a{
+    text-decoration: none;
+    color : white;
+}
+.com-out ul li a:hover
+{
+    color:lightgreen;
+}
+
+.com-out div i{
+    background-color: rgba(74, 95, 93, 0.288);
+    padding: 10px;
+    border-radius: 20px;
+  
+}
+.com-out div  i:hover{
+    color: lightgreen;
+}
+.footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    color : white;
+}
+
+.footer .legal {
+    display: flex;
+    
+}
+.footer .legal p{
+    margin-right: 10px;
+    color:lightgray;
+    
+}
+.legal  p:hover
+{
+   color:lightgreen;
+}
